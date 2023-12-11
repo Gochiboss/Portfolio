@@ -17,7 +17,8 @@ html{
 }
 
 p {
-    color: rgb(85, 85, 85)
+    /* color: rgb(85, 85, 85) */
+    color: black;
 }
 
 /* TRANSITION */
@@ -157,6 +158,13 @@ section {
 
 .section-container {
     display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    flex-direction: column;
+}
+
+.text-container{
+    text-align: center;
 }
 
 /* PROFILE SECTION */
@@ -189,7 +197,7 @@ section {
 }
 
 .section_text_p2 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -205,11 +213,14 @@ section {
     gap: 1rem;
 }
 
+.title1{
+    font-size: 4rem;
+}
 /* ICONS */
 
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 3rem;
 }
 
 /* BUTTONS */
@@ -273,6 +284,7 @@ section {
 }
 
 .about-details-container {
+    margin-top: 2rem;
     justify-content: center;
     flex-direction: column;
 }
@@ -293,7 +305,7 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 3rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -301,6 +313,13 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
+
+.details-container h3{
+    font-size: 30px;
+}
+
+
+
 
 .section-container {
     gap: 4rem;
@@ -417,7 +436,7 @@ article .icon {
  }
 
  .email-icon {
-    height: 2.5rem;
+    height: 4rem;
  }
 
 /* FOOTER SECTION */
